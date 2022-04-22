@@ -1,7 +1,7 @@
 {
   "name": "@ndml/types",
   "version": "1.0.0",
-  "description": "Minecraft version api impl for launcher",
+  "description": "Types for ndml",
   "main": "lib/index.cjs",
   "module": "lib/index.mjs",
   "author": "LIMPIX31",
