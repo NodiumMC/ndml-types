@@ -24,7 +24,7 @@ export type NotIncludeCP = {
 
 export type RuleType = {
   action: 'allow' | 'disallow'
-  features: Record<string, any>
+  features?: Record<string, any>
   os: StringRecord
 }
 
@@ -50,6 +50,8 @@ export type LibraryType = NotIncludeCP & {
       'natives-macos'?: MojangResourceType
       'natives-osx'?: MojangResourceType
       'natives-windows'?: MojangResourceType
+      javadoc?: MojangResourceType
+      sources?: MojangResourceType
     }
   }
   extract?: {
