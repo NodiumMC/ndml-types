@@ -25,7 +25,7 @@ export type NotIncludeCP = {
 export type RuleType = {
   action: 'allow' | 'disallow'
   features?: Record<string, any>
-  os: StringRecord
+  os?: StringRecord
 }
 
 export type GameRuleValueType = {
