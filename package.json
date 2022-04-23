@@ -1,6 +1,6 @@
 {
   "name": "@ndml/types",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Types for ndml",
   "main": "lib/index.js",
   "author": "LIMPIX31",
