@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "target": "ESNext",
+    "module": "CommonJS",
     "moduleResolution": "node",
     "newLine": "crlf",
     "declaration": true,
